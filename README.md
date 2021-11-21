@@ -17,7 +17,7 @@ This is a [Vite](https://vitejs.dev/), [React](https://reactjs.org/), [TypeScrip
 
 ### Clone the template
 
-To clone this template you can use one of the three ways:
+To clone this template you can use one of the two ways:
 
 
 #### 1. Use npx degit
@@ -64,7 +64,7 @@ You can also use auto import and it should work automatically.
 When you add a new folder in src, add it on the `tsconfig.json`
 ```json
 {
-	...
+	// ...
   "baseUrl": "./src",
     "paths": {
       "@/routes/*": ["./routes/*"],
@@ -72,7 +72,7 @@ When you add a new folder in src, add it on the `tsconfig.json`
 			"@/components/*": ["./components/*"],
 			// add new folders here
     },
-		...
+	// ...
 }
 ```
 
